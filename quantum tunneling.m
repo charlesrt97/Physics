@@ -17,7 +17,7 @@ u=(5e4/7)*eye(n); %se define el potencial
 u(1:494,1:494)=0; %de tal manera que sea de -0.05 a 0.05
 u(506:1000,506:1000)=0;
 
-%hamiltoniano
+% hamiltoniano (usando derivadas espectrales)
 H=((1/2)*(-2*eye(n)+diag(ones((n-1),1),1)+diag(ones((n-1),1),-1))/(h^2)+u); %se define el hamiltoniano
 
 %solucion y animacion
