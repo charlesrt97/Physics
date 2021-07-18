@@ -1,6 +1,6 @@
 % quantum Lennard-Jones potential
 
-function proyectL1
+function lennjonpot
 E=-1.8*10^-3; %El valor de energ?a debe ser un n?mero muy cercano al esperado cuyo valor absoluto sea mayor%
 nr=0 %El valor nr, checando las tablas se observa cual valor de energ?a le corresponde
 l=0  %El mismo caso con el valor l, donde depende de 0,1 y 2
