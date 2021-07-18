@@ -1,3 +1,5 @@
+% Ito's indexing method, to identify an unknown sample from its powder diffraction data
+
 close all;clear all;clc
 % 110 100
 A=load('Unknow04.dat');
