@@ -1,4 +1,5 @@
-% Ito's indexing method, to identify an unknown sample from its powder diffraction data
+% Ito's indexing method 
+% Identifies an unknown sample from its powder diffraction data
 
 close all;clear all;clc
 A=load('data2theta.txt');
